@@ -152,8 +152,8 @@ export default function SignUp() {
     
     // Construct the payload
     const payload = {
-      name: data.get('firstname'),
-      lastName: data.get('lastname'),
+      firstname: data.get('firstname'),
+      lastname: data.get('lastname'),
       email: data.get('email'),
       password: data.get('password'),
     };
